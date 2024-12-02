@@ -10,12 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HexagonBtn(color: .blue, index: <#Int#>) {_ in 
+                print("Hexagon button tapped!")
+            }
+            .frame(width: 200, height: 200)
         }
-        .padding()
     }
 }
 
