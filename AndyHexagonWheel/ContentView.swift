@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HexagonBtn(color: .blue, index: <#Int#>) {_ in 
-                print("Hexagon button tapped!")
-            }
-            .frame(width: 200, height: 200)
+            HexagonWheelView()
         }
     }
 }
